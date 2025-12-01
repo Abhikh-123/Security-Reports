@@ -128,7 +128,7 @@ for FILE in "$PDF_FOLDER"/*.pdf; do
     WEBURL=$(echo "$RESPONSE" | jq -r '.webUrl')
 
     if [[ -z "$WEBURL" || "$WEBURL" == "null" ]]; then
-        echo  Upload failed!"
+        echo  "Upload failed!"
         echo "$RESPONSE"
         continue
     fi
