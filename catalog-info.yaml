@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: security-reports
+  description: Security Reports – Code Scoring & Scan Reports Platform
+  tags:
+    - security
+    - reports
+    - devsecops
+  annotations:
+    github.com/project-slug: Abhikh-123/Security-Reports
+    jenkins.io/job-full-name: CodeScoring
+spec:
+  type: service
+  lifecycle: development
+  owner: security-team
