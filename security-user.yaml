@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: akhandelwal
+spec:
+  profile:
+    displayName: Akhandelwal
+    email: akhandelwal@rapifuzz.com
+  memberOf:
+    - security-team
