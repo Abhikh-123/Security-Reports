@@ -9,9 +9,26 @@ metadata:
     - reports
     - devsecops
   annotations:
+    # Location annotations (IMPORTANT)
+    backstage.io/managed-by-location: url:https://raw.githubusercontent.com/Abhikh-123/Security-Reports/main/catalog-info.yaml
+    backstage.io/source-location: url:https://github.com/Abhikh-123/Security-Reports
+    
+    # GitHub integration
     github.com/project-slug: Abhikh-123/Security-Reports
+    
+    # Jenkins integration
     jenkins.io/job-full-name: CodeScoring
+    jenkins.io/job-name: CodeScoring
+    
+    # TechDocs
+    backstage.io/techdocs-ref: dir:.
+    
+    # Optional but helpful
+    backstage.io/kubernetes-id: security-reports
+    
 spec:
   type: service
-  lifecycle: development
-  owner: security-team
+  lifecycle: production
+  owner: group:default/security-team
+  # Optional: Add system if you have one
+  # system: security-platform
