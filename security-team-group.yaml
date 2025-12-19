@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: security-team
+  description: Security Engineering Team
+spec:
+  type: team
+  profile:
+    displayName: Security Team
+    email: akhandelwal@rapifuzz.com
+  children: []
