@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: security-reports
+  namespace: default
   description: Security Reports – Code Scoring & Scan Reports Platform
   tags:
     - security
@@ -13,4 +14,4 @@ metadata:
 spec:
   type: service
   lifecycle: development
-  owner: security-team
+  owner: group:default/security-team
