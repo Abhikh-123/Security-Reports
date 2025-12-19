@@ -4,7 +4,7 @@ metadata:
   name: akhandelwal
   namespace: default
   annotations:
-    backstage.io/managed-by-location: file:./security-user.yaml 
+    backstage.io/managed-by-location: url:https://raw.githubusercontent.com/Abhikh-123/Security-Reports/main/security-user.yaml
 spec:
   profile:
     displayName: Akhandelwal
