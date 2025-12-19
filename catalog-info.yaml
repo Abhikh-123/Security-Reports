@@ -14,4 +14,4 @@ metadata:
 spec:
   type: service
   lifecycle: development
-  owner: group:default/security-team
+  owner: security-team
