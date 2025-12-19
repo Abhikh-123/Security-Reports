@@ -3,6 +3,8 @@ kind: User
 metadata:
   name: akhandelwal
   namespace: default
+  annotations:
+    backstage.io/managed-by-location: file:./security-user.yaml 
 spec:
   profile:
     displayName: Akhandelwal
