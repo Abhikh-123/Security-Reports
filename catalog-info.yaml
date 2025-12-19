@@ -3,32 +3,28 @@ kind: Component
 metadata:
   name: code-scoring
   description: Security reports and code-scoring platform for DevSecOps pipelines
+
   links:
     - url: http://192.168.2.132:8081/job/CodeScoring/
       title: Jenkins – Code Scoring Pipeline
-      icon: jenkins
+      icon: link
 
-    
   tags:
     - security
     - reports
     - devsecops
+
   annotations:
-    # 📍 Location
-    backstage.io/managed-by-location: url:https://raw.githubusercontent.com/Abhikh-123/Security-Reports/main/catalog-info.yaml
+    # Source
     backstage.io/source-location: url:https://github.com/Abhikh-123/Security-Reports
-    
-    # 👨‍💻 GitHub
     github.com/project-slug: Abhikh-123/Security-Reports
-    
-    # 🏗️ Jenkins (TRY THESE - ONE SHOULD WORK)
+
+    # ✅ JENKINS (ONLY ONE REQUIRED)
     jenkins.io/job-full-name: CodeScoring
-    jenkins.io/job-name: CodeScoring
-    jenkins.io/github-folder: CodeScoring/
-    
-    # 💾 TechDocs
+
+    # TechDocs
     backstage.io/techdocs-ref: dir:.
-    
+
 spec:
   type: service
   lifecycle: production
