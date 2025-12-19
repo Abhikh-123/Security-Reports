@@ -4,6 +4,8 @@ metadata:
   name: security-team
   namespace: default
   description: Security Engineering Team
+  annotations:
+    backstage.io/managed-by-location: url:https://raw.githubusercontent.com/Abhikh-123/Security-Reports/main/security-team-group.yaml
 spec:
   type: team
   profile:
