@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: security-team
+  namespace: default
   description: Security Engineering Team
 spec:
   type: team
