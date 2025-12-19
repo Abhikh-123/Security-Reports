@@ -1,14 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: security-reports
-  namespace: default
-  description: |
-    # Security Reports – Code Scoring & Scan Reports Platform
-    
-    ## 🔧 CI/CD Pipeline
-    **Jenkins:** http://192.168.2.132:8081/job/CodeScoring/
-    **Build:** #19 ✅ Success
+  name: code-scoring
+  description: Security reports and code-scoring platform for DevSecOps pipelines
+  links:
+    - url: http://192.168.2.132:8081/job/CodeScoring/
+      title: Jenkins – Code Scoring Pipeline
+      icon: jenkins
+
     
   tags:
     - security
