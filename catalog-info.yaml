@@ -3,32 +3,34 @@ kind: Component
 metadata:
   name: security-reports
   namespace: default
-  description: Security Reports – Code Scoring & Scan Reports Platform
+  description: |
+    # Security Reports – Code Scoring & Scan Reports Platform
+    
+    ## 🔧 CI/CD Pipeline
+    **Jenkins:** http://192.168.2.132:8081/job/CodeScoring/
+    **Build:** #19 ✅ Success
+    
   tags:
     - security
     - reports
     - devsecops
   annotations:
-    # Location annotations (IMPORTANT)
+    # 📍 Location
     backstage.io/managed-by-location: url:https://raw.githubusercontent.com/Abhikh-123/Security-Reports/main/catalog-info.yaml
     backstage.io/source-location: url:https://github.com/Abhikh-123/Security-Reports
     
-    # GitHub integration
+    # 👨‍💻 GitHub
     github.com/project-slug: Abhikh-123/Security-Reports
     
-    # Jenkins integration
+    # 🏗️ Jenkins (TRY THESE - ONE SHOULD WORK)
     jenkins.io/job-full-name: CodeScoring
     jenkins.io/job-name: CodeScoring
+    jenkins.io/github-folder: CodeScoring/
     
-    # TechDocs
+    # 💾 TechDocs
     backstage.io/techdocs-ref: dir:.
-    
-    # Optional but helpful
-    backstage.io/kubernetes-id: security-reports
     
 spec:
   type: service
   lifecycle: production
   owner: group:default/security-team
-  # Optional: Add system if you have one
-  # system: security-platform
