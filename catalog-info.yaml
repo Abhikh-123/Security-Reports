@@ -18,7 +18,7 @@ metadata:
     backstage.io/source-location: url:https://raw.githubusercontent.com/Abhikh-123/Security-Reports/main
     github.com/project-slug: Abhikh-123/Security-Reports
     jenkins.io/job-full-name: CodeScoring
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:docs
 
 spec:
   type: service
