@@ -15,14 +15,14 @@ metadata:
     - devsecops
 
   annotations:
-    # Source
+    # Source repository
     backstage.io/source-location: url:https://github.com/Abhikh-123/Security-Reports
     github.com/project-slug: Abhikh-123/Security-Reports
 
-    # ✅ JENKINS (ONLY ONE REQUIRED)
+    # Jenkins
     jenkins.io/job-full-name: CodeScoring
 
-    # TechDocs
+    # TechDocs (REQUIRED when entity is loaded via raw GitHub URL)
     backstage.io/techdocs-ref: url:https://github.com/Abhikh-123/Security-Reports
 
 spec:
