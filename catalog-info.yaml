@@ -23,7 +23,7 @@ metadata:
     jenkins.io/job-full-name: CodeScoring
 
     # TechDocs
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/Abhikh-123/Security-Reports
 
 spec:
   type: service
