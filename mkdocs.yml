@@ -3,7 +3,7 @@ site_name: Code Scoring – Security Reports
 nav:
   - Overview: index.md
   - Runbooks:
-      - Security Runbooks: docs/index.md
+      - Security Runbooks: index.md
 
 plugins:
   - techdocs-core
